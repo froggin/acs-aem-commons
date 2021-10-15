@@ -32,6 +32,7 @@ import java.util.Dictionary;
 import java.util.Hashtable;
 import java.util.UUID;
 
+@SuppressWarnings("CQRules:CQBP-84")
 public class SyntheticWorkItem implements WorkItem {
     private static final String CURRENT_ASSIGNEE = "Synthetic Workflow";
     private final UUID uuid = UUID.randomUUID();

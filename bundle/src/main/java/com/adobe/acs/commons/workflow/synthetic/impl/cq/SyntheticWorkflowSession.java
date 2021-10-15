@@ -51,6 +51,7 @@ import java.util.Dictionary;
 import java.util.List;
 import java.util.Map;
 
+@SuppressWarnings("CQRules:CQBP-84")
 public class SyntheticWorkflowSession implements WorkflowSession {
     private static final Logger log = LoggerFactory.getLogger(SyntheticWorkflowSession.class);
 

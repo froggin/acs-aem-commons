@@ -31,6 +31,7 @@ import com.adobe.granite.workflow.model.WorkflowNode;
 import java.util.Date;
 import java.util.UUID;
 
+@SuppressWarnings("CQRules:CQBP-84")
 public class SyntheticWorkItem implements WorkItem {
     private static final String CURRENT_ASSIGNEE = "Synthetic Workflow";
     private final UUID uuid = UUID.randomUUID();
